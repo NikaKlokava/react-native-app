@@ -70,7 +70,7 @@ export const Game = ({randomNumberCount, initialSeconds}: Props) => {
     setGameStatus(GameStatus.playing);
     setSelectedNumIndexes([]);
   };
-  console.log(gameStatus);
+
   return (
     <View style={styles.container}>
       <Text
