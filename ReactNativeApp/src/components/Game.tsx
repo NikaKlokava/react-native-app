@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {StyleSheet, Text, View, Button, Pressable} from 'react-native';
+import {StyleSheet, Text, View, Pressable} from 'react-native';
 import {RandomNumber} from './RandomNumber';
 import {Timer} from './Timer';
 import {shuffle} from 'lodash';
